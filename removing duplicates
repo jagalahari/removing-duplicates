@@ -1,0 +1,11 @@
+dupList=[]
+n=int(input('enter number of items'))
+for i in range(1,n+1)
+l=int(input('enter the %d List item='%i))
+dupList.append(l)
+print('list items=',dupList)
+uniqList=[]
+for i in dupList:
+if i not in uniqList:
+uniqlist.append(i)
+print('list items after removing Duplicates=',uniqList)
